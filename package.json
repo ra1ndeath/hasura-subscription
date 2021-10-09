@@ -1,6 +1,6 @@
 {
   "name": "hasura-subscriptions-client",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Hasura subscription client",
   "module": "dist/esm/index.js",
   "main": "index.js",
