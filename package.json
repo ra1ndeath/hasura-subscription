@@ -1,16 +1,13 @@
 {
   "name": "hasura-subscriptions-client",
-  "mode": "production",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "Hasura subscription client",
   "module": "dist/esm/index.js",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "build": "webpack"
+    "build": "neutrino build"
   },
-  "files": [
-    "dist"
-  ],
   "author": "Ra1nDeath",
   "license": "MIT",
   "repository": "git@github.com:ra1ndeath/hasura-subscription.git",
@@ -19,19 +16,13 @@
     "backo2": "^1.0.2",
     "eventemitter3": "^3.1.2",
     "symbol-observable": "^1.2.0",
-    "@babel/core": "^7.15.5",
-    "@babel/plugin-transform-runtime": "^7.15.0",
-    "@babel/preset-env": "^7.15.6",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^8.2.2",
-    "webpack": "^5.56.1",
-    "webpack-cli": "^4.8.0"
+    "@neutrinojs/library": "^8.3.0",
+    "@neutrinojs/standardjs": "^8.3.0",
+    "neutrino": "^8.3.0"
   },
   "devDependencies": {
     "@types/backo2": "^1.0.1",
     "@types/jest": "^27.0.2",
-    "@types/ws": "^7.4.0",
-    "jest-websocket-mock": "^2.2.1",
-    "mock-socket": "^9.0.3"
+    "@types/ws": "^7.4.0"
   }
 }
