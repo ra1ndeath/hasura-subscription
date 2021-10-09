@@ -1,5 +1,6 @@
 {
   "name": "hasura-subscriptions-client",
+  "mode": "production",
   "version": "0.1.2",
   "description": "Hasura subscription client",
   "module": "dist/esm/index.js",
@@ -7,9 +8,6 @@
   "scripts": {
     "build": "webpack"
   },
-  "keywords": [
-    "graphql"
-  ],
   "files": [
     "dist"
   ],
